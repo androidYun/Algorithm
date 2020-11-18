@@ -20,8 +20,14 @@ class MainActivity : AppCompatActivity() {
         println("打印日志")2
         println("打印日志")2
         println("打印日志")2
-
-
-
+        println("打印日志")2
+        println("打印日志")2
+        println("打印日志")2
+        println("打印日志")2
+        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)
     }
 }

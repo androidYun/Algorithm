@@ -1,29 +1,36 @@
 package com.xhs.algorithm
 
+import android.os.Build
+import androidx.annotation.RequiresApi
+
 object Main {
+    @RequiresApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
     @JvmStatic
     fun main(args: Array<String>) {
-        /**
-         * 第一列
-         */
-        val l1 = ListNode(2)
-        val l2 = ListNode(4)
-        val l3 = ListNode(3)
-        l1.next = l2
-        l2.next = l3
-        /**
-         * 第二列
-         */
-        val l11 = ListNode(8)
-        val l22 = ListNode(6)
-        val l33 = ListNode(4)
-        l11.next = l22
-        l22.next = l33
-        var addTwoNumbers = addTwoNumbers(l1, l11)
-        while (addTwoNumbers != null) {
-            println("打印数据${addTwoNumbers.value}")
-            addTwoNumbers = addTwoNumbers.next
-        }
+//        /**
+//         * 第一列
+//         */
+//        val l1 = ListNode(2)
+//        val l2 = ListNode(4)
+//        val l3 = ListNode(3)
+//        l1.next = l2
+//        l2.next = l3
+//        /**
+//         * 第二列
+//         */
+//        val l11 = ListNode(8)
+//        val l22 = ListNode(6)
+//        val l33 = ListNode(4)
+//        l11.next = l22
+//        l22.next = l33
+//        var addTwoNumbers = addTwoNumbers(l1, l11)
+//        while (addTwoNumbers != null) {
+//            println("打印数据${addTwoNumbers.value}")
+//            addTwoNumbers = addTwoNumbers.next
+//        }
+
+        val uniqueID = UniqueDeviceID.getUniqueID()
+        println("打印测试${uniqueID}")
     }
 
 
