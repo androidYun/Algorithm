@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         println("打印日志")
         println("打印日志")1
         println("打印日志")2
+        println("打印日志")2
 
 
 
