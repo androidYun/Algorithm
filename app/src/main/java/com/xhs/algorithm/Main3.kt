@@ -7,6 +7,10 @@ object Main3 {
          * 第一列
          */
         val l1 = ListNode(2)
+        val l1 = ListNode(2)
+        val l1 = ListNode(2)
+        val l1 = ListNode(2)
+        val l1 = ListNode(2)
         val l2 = ListNode(4)
         val l3 = ListNode(3)
         l1.next = l2
