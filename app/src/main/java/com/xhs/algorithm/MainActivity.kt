@@ -8,40 +8,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")
-        println("打印日志")1
-        println("打印日志")2
-        println("打印日志")2
-        println("打印日志")2
-        println("打印日志")2
-        println("打印日志")2
-        println("打印日志")2
-        println("打印日志")2
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
     }
 }
